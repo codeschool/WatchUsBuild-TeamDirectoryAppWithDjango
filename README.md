@@ -1,7 +1,7 @@
 # WatchUsBuild-TeamDirectoryAppWithDjango - PART 2
-Part 2 of the Code for the Directory app built during the Watch Us Build screencast.
+__Part 2__ of the Code for the Directory app built during the Watch Us Build screencast.
 
-Note we deleted our key and secret from our google developer's console so you can create your own here:
+__Note__ we deleted our key and secret from our google developer's console so you can create your own here:
 https://console.developers.google.com
 Then replace the key and secret variables with your values:
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY
