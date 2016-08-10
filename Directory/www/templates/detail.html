@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+      <main>
+        <h1>Directory</h1>
+          <section>
+            {% if user.email == person.email %}
+            <a href="{% url 'edit' person.slug %}">edit</a>
+            {% endif %}
+            <img src="{{ person.image }}"/>
+            <h2>{{ person.name }}</h2>
+            <p class="person-title">{{ person.title }}</p>
+            <p class="person-email">{{ person.email }}</p>
+            <p>{{ person.responsibilities }}</p>
+            <p>{{ person.bio }}</p>
+            <p>{{ person.twitter }}</p>
+            <p>{{ person.github }}</p>
+            <p>{{ person.birthday }}</p>
+          </section>
+      </main>
+{% endblock %}
